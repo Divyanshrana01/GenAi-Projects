@@ -57,6 +57,8 @@ SQLAlchemy
 validators
 youtube_transcript_api
 unstructured
+unstructured[pdf]
+unstructured[pptx]
 pytube
 numexpr
 huggingface-hub
@@ -64,14 +66,15 @@ pymongo
 sentence_transformers
 datasets
 requests
-
-
-
+pinecone 
+poppler-utils
+unstructured-pytesseract
+langchain-astradb
 
 
 
 
 
 # pip install -r requirements.txt
-  
+
   
