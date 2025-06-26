@@ -35,6 +35,5 @@ cd KoylAI
 pip install -r requirements.txt
 
 
-# new
 
 
