@@ -1,44 +1,44 @@
-🦜 DocTalk: Converse with Websites & PDFs
-DocTalk is a lightweight, GenAI-powered Streamlit app that lets you chat with content from websites or PDF documents. Whether it’s a legal PDF, a blog article, or a documentation page — just upload or paste the link, and start asking questions. Powered by LangChain, FAISS, and Groq’s LLaMA 4, it performs retrieval-augmented generation (RAG) to give grounded, contextual answers.
+# 🦜 DocTalk: Converse with Websites & PDFs
 
-🚀 Features
-🔗 Load and parse content from any public website
+**DocTalk** is a GenAI-powered Streamlit app that lets you **chat with content from websites or PDF documents**. Upload a PDF or paste a link — and ask questions directly about the content. Powered by **LangChain**, **FAISS**, and **Groq’s LLaMA 4**, it performs Retrieval-Augmented Generation (RAG) with high-speed LLM responses.
 
-📄 Upload PDF documents for instant analysis
+---
 
-🧠 Automatically chunk, embed, and index text using HuggingFace Embeddings
+## 🚀 Features
 
-📚 Uses FAISS vector store for fast retrieval
+- 🔗 Extracts and parses public **website URLs**
+- 📄 Supports **PDF file uploads**
+- 🧠 Uses **HuggingFace Embeddings** for vectorization
+- 🗂️ Stores chunks in **FAISS vector database**
+- 🤖 Uses **Groq LLaMA-4-Scout** via LangChain’s RetrievalQA
+- 🖼️ Minimal, interactive **Streamlit UI**
 
-🤖 Queries are answered using Groq LLaMA 4 via LangChain RetrievalQA
+---
 
-⚡ Simple and clean Streamlit interface
+## 🛠 Tech Stack
 
-🛠 Tech Stack
-Frontend/UI: Streamlit
+- **Frontend:** [Streamlit](https://streamlit.io/)
+- **LLM:** [Meta LLaMA 4 (Groq)](https://console.groq.com/)
+- **Embeddings:** HuggingFace Transformers
+- **Vector Store:** FAISS
+- **Parsing:** `BeautifulSoup`, `PyPDFLoader`
+- **Framework:** [LangChain](https://www.langchain.com/)
 
-LLM: Meta LLaMA 4 Scout via Groq
+---
 
-Embeddings: HuggingFace Transformers
+## 📦 Installation
 
-Vector Store: FAISS
-
-Document Parsing: BeautifulSoup (Web), PyPDFLoader (PDF)
-
-Framework: LangChain
-
-📦 Installation
-bash
-Copy code
-git clone https://github.com/yourusername/doctalk.git
-cd doctalk
+```bash
+git clone https://github.com/yourusername/DocTalk.git
+cd DocTalk
 pip install -r requirements.txt
-Make sure you have a valid Groq API key.
+
 
 🧪 Usage
 bash
 Copy code
 streamlit run DocTalk.py
+
 Then:
 
 Paste a website URL or upload a PDF
