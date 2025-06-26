@@ -1,2 +1,6 @@
 .env
 venv/
+eatright_articles
+fdc_data
+harvard_articles
+pubmed_abstracts
