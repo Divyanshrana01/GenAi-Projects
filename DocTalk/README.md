@@ -35,20 +35,7 @@ pip install -r requirements.txt
 
 
 🧪 Usage
-bash
-Copy code
+
 streamlit run DocTalk.py
 
-Then:
-
-Paste a website URL or upload a PDF
-
-Enter your Groq API key in the sidebar
-
-Click “Analyze”
-
-Ask natural language questions based on the content
-
-🔐 API Key
-You need a Groq API key to access the LLaMA 4 model.
 
